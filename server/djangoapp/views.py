@@ -1,5 +1,5 @@
 # Uncomment the required imports before adding the code
-
+from .restapis import get_request
 from django.shortcuts import render
 from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.models import User
@@ -82,6 +82,9 @@ def registration(request):
 # a list of dealerships
 # def get_dealerships(request):
 # ...
+def get_dealerships(request):
+    dealerships = get_request("fetchDealers")
+    return JsonResponse(dealerships, safe=False)
 
 # Create a `get_dealer_reviews` view to render the reviews of a dealer
 # def get_dealer_reviews(request,dealer_id):
