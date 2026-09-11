@@ -1,0 +1,7 @@
+{
+  "dealerships": [
+    {"id": 1, "city": "El Paso", "state": "Texas", "address": "334 Cross Junction", "zip": "79902", "full_name": "Holden Dealership"},
+    {"id": 2, "city": "Minneapolis", "state": "Minnesota", "address": "4 Gateway Circle", "zip": "55403", "full_name": "Ford Dealership"},
+    {"id": 3, "city": "Topeka", "state": "Kansas", "address": "102 Morris Crossing", "zip": "66605", "full_name": "Toyota Dealership"}
+  ]
+}
